@@ -98,7 +98,7 @@
 }
 .msg{
     padding: 10px;
-    height: 200px;
+    max-height: 100px;
     overflow-y: scroll;
 }
 

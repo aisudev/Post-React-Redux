@@ -1,9 +1,11 @@
+
 import './style.css'
 import CreatePost from "./components/CreatePost";
-import EditPost from "./components/EditPost";
-import Post from "./components/Post";
+import AllPost from './components/AllPost'
+
 
 function App() {
+
   return (
     <>
       <h1
@@ -11,10 +13,11 @@ function App() {
           textAlign:'center',
           fontSize:48
         }}
-      >POST</h1>
+      >POST {}</h1>
       <CreatePost/>
+      <AllPost/>
     </>
   );
 }
 
-export default App;
+export default App
